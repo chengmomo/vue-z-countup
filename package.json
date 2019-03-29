@@ -1,15 +1,15 @@
 {
   "name": "vue-z-countup",
   "description": "A Vue.js project",
-  "version": "1.0.0",
-  "author": "18252030586 <z923891099@icloud.com>",
+  "version": "1.0.2",
+  "author": "chengmomo",
   "license": "MIT",
   "private": false,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
-  "main": "dist/vue-z-countup.js",
+  "main": "dist/vue-z-count-up.js",
   "homepage": "https://github.com/chengmomo/vue-z-countup.git#readme",
   "repository": {
     "type": "git",

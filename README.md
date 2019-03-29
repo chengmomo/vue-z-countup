@@ -1,6 +1,6 @@
 # vue-z-countup
 
-> A Vue.js project
+> A Vue Custom Component
 
 ## Build Setup
 

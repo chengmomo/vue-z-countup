@@ -5,7 +5,7 @@ const VueCountUp = {
     if (typeof window !== 'undefined' && window.Vue) {
       Vue = window.Vue
     }
-    Vue.component('VueFlagList', countComponent)
+    Vue.component('VueCountUp', countComponent)
   }
 }
 export default VueCountUp

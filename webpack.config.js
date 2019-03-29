@@ -2,13 +2,13 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-  // entry: './src/index.js', // 打包时 插件入口
-  entry: './src/main.js', // npm run dev时 demo调试的入口
+  // entry: './src/main.js', // npm run dev时 demo调试的入口
+  entry: './src/lib/index.js', // 打包时 插件入口
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'build.js',
-    // filename: 'vue-z-countup.js',  // 打包生成文件的名字
+    // filename: 'build.js',
+    filename: 'vue-z-count-up.js',  // 打包生成文件的名字
     // 可以用 <script> 标签的方式直接引入
     library: 'VueCountUp', // require引入的名字
     libraryTarget: 'umd',
