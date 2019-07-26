@@ -1,4 +1,5 @@
 # vue-z-countup
+# 封装CountUp.js的数字滚动插件
 
 > A Vue Custom Component
 
